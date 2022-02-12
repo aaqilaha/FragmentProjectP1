@@ -53,6 +53,10 @@ public class SimpleFragment extends Fragment {
         return fragment;
     }
 
+    public static SimpleFragment newInstance(){
+        SimpleFragment fragment = new SimpleFragment();
+        return fragment;
+    }
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
